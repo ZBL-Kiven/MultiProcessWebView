@@ -16,22 +16,6 @@ buildscript {
 allprojects {
     repositories {
         google()
-//        maven { url 'https://dl.openmediation.com/omcenter/' }
-//        maven { url 'https://dl.adtiming.com/android-sdk' }
-//        maven { url 'https://chartboostmobile.bintray.com/Chartboost' }
-//        maven { url 'https://dl.bintray.com/ironsource-mobile/android-sdk' }
-//        maven { url 'https://artifact.bytedance.com/repository/pangle' }
-//        maven {
-//            name "Tapjoy's maven repo"
-//            url "https://sdk.tapjoy.com/"
-//        }
-        maven {
-            credentials {
-                username 'iRqFxj'
-                password 'fMTKbe0WP6'
-            }
-            url 'https://repo.rdc.aliyun.com/repository/129757-release-BhhDH6/'
-        }
         mavenCentral()
     }
 }

@@ -20,7 +20,7 @@ open class CCWebActivity : AppCompatActivity() {
                 runOnUiThread {
                     adView.visibility = View.VISIBLE
                     adView.setOnClickListener {
-                        WebViewService.postToClient("showAd")
+                        WebViewService.postToClient("example")
                     }
                 }
             }
@@ -35,7 +35,7 @@ open class CCWebActivity : AppCompatActivity() {
         webView = findViewById(R.id.cus_web_view)
         adView = findViewById(R.id.cc_web_show_ad)
         webView.loadUrl("http://www.ik123.com/")
-        WebViewService.postToClient("loadAd")
+        WebViewService.postToClient("init")
     }
 
     override fun onDestroy() {
